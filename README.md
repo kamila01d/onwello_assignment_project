@@ -1,7 +1,13 @@
 # Onwello Assignemnt Project
 ## Project set-up
 ### Setting up credentials
-In order to run and test the script you need to have correct google credentials file in order to use service account
+In order to run and test the script you need to have service account with appropriate
+permissions set in GCP, those permissions are:
+- BigQuery Data Editor. 
+- BigQuery Job User. 
+- Storage Object Admin.
+
+You need to also have correct google credentials file in order to use service account
 for script to interact with GCP services.
 
 After that place your file with credentials to path of your choice.
